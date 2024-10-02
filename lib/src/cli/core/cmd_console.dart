@@ -154,7 +154,7 @@ class CmdConsole {
   }) {
     stdout.writeln('\n\n$message\n');
     for (var i = 0; i < options.length; i++) {
-      stdout.writeln("  ${i + 1}. ${options[i]}");
+      stdout.writeln("  [${i + 1}]. ${options[i]}");
     }
 
     var res = read("Enter the number of the option:");
